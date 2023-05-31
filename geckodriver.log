@@ -1,0 +1,289 @@
+1685529426718	geckodriver	INFO	Listening on 127.0.0.1:65499
+1685529426980	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilehtFh6X"
+1685529427577	Marionette	INFO	Marionette enabled
+1685529427753	Marionette	INFO	Listening on port 49207
+Read port: 49207
+WebDriver BiDi listening on ws://127.0.0.1:65500
+1685529427846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilehtFh6X/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65500/devtools/browser/74486cbc-4bf6-4859-a93e-e722baa3392a
+1685529429614	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529429616	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529429704	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529437119	Marionette	INFO	Stopped listening on port 49207
+1685529726947	geckodriver	INFO	Listening on 127.0.0.1:50451
+1685529727463	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilekRx07c"
+1685529727893	Marionette	INFO	Marionette enabled
+1685529727922	Marionette	INFO	Listening on port 50465
+Read port: 50465
+WebDriver BiDi listening on ws://127.0.0.1:50452
+1685529728046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilekRx07c/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50452/devtools/browser/f816f9ff-9cdc-46a8-af05-cf28e735d06d
+1685529729361	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529729404	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529729628	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529729693	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529741623	Marionette	INFO	Stopped listening on port 50465
+1685529799091	geckodriver	INFO	Listening on 127.0.0.1:50803
+1685529799611	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileHMginr"
+1685529799954	Marionette	INFO	Marionette enabled
+1685529799979	Marionette	INFO	Listening on port 50813
+Read port: 50813
+WebDriver BiDi listening on ws://127.0.0.1:50804
+1685529800121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileHMginr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50804/devtools/browser/23d6e83b-b39e-489d-a242-5adce641c59f
+1685529801475	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529801485	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529801766	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529859819	Marionette	INFO	Stopped listening on port 50813
+1685529942347	geckodriver	INFO	Listening on 127.0.0.1:51443
+1685529942864	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilefjnbbt"
+1685529943203	Marionette	INFO	Marionette enabled
+1685529943367	Marionette	INFO	Listening on port 51453
+Read port: 51453
+WebDriver BiDi listening on ws://127.0.0.1:51444
+1685529943426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilefjnbbt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51444/devtools/browser/95017732-39c5-410f-b29e-4ae292ee9a0f
+1685529944883	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529944885	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685529945123	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://9075392.fls.doubleclick.net/ddm/fls/r/src=9075392;type=us_scr50;cat=us_scr50;ord=406347502033;gtm=45fe35o0;auiddc=237169144.1685529946;u6=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html;~oref=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html, line 18: SyntaxError: missing } after function body
+JavaScript note: https://9075392.fls.doubleclick.net/ddm/fls/r/src=9075392;type=us_scr50;cat=us_scr50;ord=406347502033;gtm=45fe35o0;auiddc=237169144.1685529946;u6=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html;~oref=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html, line 1: { opened at line 1, column 20
+1685530003675	Marionette	INFO	Stopped listening on port 51453
+1685530360920	geckodriver	INFO	Listening on 127.0.0.1:53258
+1685530361440	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofile4iMlzT"
+1685530361879	Marionette	INFO	Marionette enabled
+1685530362055	Marionette	INFO	Listening on port 53277
+Read port: 53277
+WebDriver BiDi listening on ws://127.0.0.1:53259
+1685530362126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofile4iMlzT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53259/devtools/browser/886b5a37-fdaf-4532-8b09-594ec1db3417
+1685530363490	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685530363658	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685530363819	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685530386938	Marionette	INFO	Stopped listening on port 53277
+1685530555371	geckodriver	INFO	Listening on 127.0.0.1:54121
+1685530555889	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileirvXtg"
+1685530556300	Marionette	INFO	Marionette enabled
+1685530556332	Marionette	INFO	Listening on port 54131
+Read port: 54131
+WebDriver BiDi listening on ws://127.0.0.1:54122
+1685530556450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileirvXtg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54122/devtools/browser/05aa6b15-d61a-4deb-a6c9-44dd7d09f3ee
+1685530557958	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685530558098	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685530581258	Marionette	INFO	Stopped listening on port 54131
+1685530689912	geckodriver	INFO	Listening on 127.0.0.1:54720
+1685530690410	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofiletRE2fc"
+1685530712065	geckodriver	INFO	Listening on 127.0.0.1:54829
+1685530712585	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileysENzP"
+1685530713022	Marionette	INFO	Marionette enabled
+1685530713051	Marionette	INFO	Listening on port 54841
+Read port: 54841
+WebDriver BiDi listening on ws://127.0.0.1:54830
+1685530713189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileysENzP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54830/devtools/browser/fd71788f-0a95-4215-a9ae-f3e6a581e0dd
+1685530714672	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685530714762	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685530715039	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685530725074	Marionette	INFO	Stopped listening on port 54841
+1685531191933	geckodriver	INFO	Listening on 127.0.0.1:56984
+1685531192446	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileAWzD6R"
+1685531192845	Marionette	INFO	Marionette enabled
+1685531192874	Marionette	INFO	Listening on port 56994
+Read port: 56994
+WebDriver BiDi listening on ws://127.0.0.1:56985
+1685531192997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileAWzD6R/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56985/devtools/browser/5f079a8c-64f4-40f3-b34f-258852ca0a18
+1685531194381	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685531194384	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685531194639	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685531205481	Marionette	INFO	Stopped listening on port 56994
+1685531787900	geckodriver	INFO	Listening on 127.0.0.1:59503
+1685531788418	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileRtb62P"
+1685531788823	Marionette	INFO	Marionette enabled
+1685531788985	Marionette	INFO	Listening on port 59513
+WebDriver BiDi listening on ws://127.0.0.1:59504
+Read port: 59513
+1685531789129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileRtb62P/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59504/devtools/browser/fbb5e676-d9d3-4616-a594-d9cdd405b35a
+1685531790678	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://9075392.fls.doubleclick.net/ddm/fls/r/src=9075392;type=us_scr50;cat=us_scr50;ord=4842401163866;gtm=45fe35o0;auiddc=1425065521.1685531792;u6=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html;~oref=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html, line 18: SyntaxError: missing } after function body
+JavaScript note: https://9075392.fls.doubleclick.net/ddm/fls/r/src=9075392;type=us_scr50;cat=us_scr50;ord=4842401163866;gtm=45fe35o0;auiddc=1425065521.1685531792;u6=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html;~oref=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html, line 1: { opened at line 1, column 20
+1685531802286	Marionette	INFO	Stopped listening on port 59513
+1685531914658	geckodriver	INFO	Listening on 127.0.0.1:60158
+1685531915171	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilerHGbrW"
+1685531915598	Marionette	INFO	Marionette enabled
+1685531915636	Marionette	INFO	Listening on port 60173
+Read port: 60173
+WebDriver BiDi listening on ws://127.0.0.1:60159
+1685531915749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilerHGbrW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60159/devtools/browser/2f64cecb-dde7-45d9-9db5-779cdd4722c5
+1685531917244	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685531917413	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685531917568	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685531927500	Marionette	INFO	Stopped listening on port 60173
+1685540055594	geckodriver	INFO	Listening on 127.0.0.1:60455
+1685540056093	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofile9rFzcT"
+1685540056601	Marionette	INFO	Marionette enabled
+1685540056631	Marionette	INFO	Listening on port 60465
+Read port: 60465
+WebDriver BiDi listening on ws://127.0.0.1:60456
+1685540056760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofile9rFzcT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60456/devtools/browser/08989efa-106e-46b0-a673-04ab069a5565
+1685540058271	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685540058405	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685540069267	Marionette	INFO	Stopped listening on port 60465
+1685540208968	geckodriver	INFO	Listening on 127.0.0.1:61150
+1685540209481	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileHPqmmc"
+1685540209967	Marionette	INFO	Marionette enabled
+1685540209994	Marionette	INFO	Listening on port 61164
+Read port: 61164
+WebDriver BiDi listening on ws://127.0.0.1:61151
+1685540210116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileHPqmmc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61151/devtools/browser/9fb64597-0bbc-49a4-a1ae-40e03899e98c
+1685540211553	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685540211571	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685540222549	Marionette	INFO	Stopped listening on port 61164
+1685540475967	geckodriver	INFO	Listening on 127.0.0.1:62294
+1685540476485	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileHe9MV9"
+1685540476935	Marionette	INFO	Marionette enabled
+1685540476967	Marionette	INFO	Listening on port 62304
+Read port: 62304
+WebDriver BiDi listening on ws://127.0.0.1:62295
+1685540477082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileHe9MV9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62295/devtools/browser/d62bf210-448d-45d1-b11c-153456a2456d
+1685540478422	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685540478439	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685540478599	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685540478797	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685540489549	Marionette	INFO	Stopped listening on port 62304
+Exiting due to channel error.
+1685540534550	geckodriver	INFO	Listening on 127.0.0.1:62580
+1685540535070	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilekMJjYo"
+1685540535568	Marionette	INFO	Marionette enabled
+1685540535597	Marionette	INFO	Listening on port 62590
+Read port: 62590
+WebDriver BiDi listening on ws://127.0.0.1:62581
+1685540535734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilekMJjYo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62581/devtools/browser/1a44f457-4acd-458a-b011-4ce6404e06be
+1685540537339	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685540537495	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685540548573	Marionette	INFO	Stopped listening on port 62590
+1685541536240	geckodriver	INFO	Listening on 127.0.0.1:50381
+1685541536760	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofile0UWViw"
+1685541537253	Marionette	INFO	Marionette enabled
+1685541537286	Marionette	INFO	Listening on port 50391
+Read port: 50391
+WebDriver BiDi listening on ws://127.0.0.1:50382
+1685541537425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofile0UWViw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50382/devtools/browser/e7434bb7-e480-49e3-b3cc-b0cfd2c74a74
+1685541538837	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685541538840	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685541538956	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685541539151	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685541550100	Marionette	INFO	Stopped listening on port 50391
+1685546518274	geckodriver	INFO	Listening on 127.0.0.1:54817
+1685546518785	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilecwoK3h"
+1685546519192	Marionette	INFO	Marionette enabled
+1685546519218	Marionette	INFO	Listening on port 54827
+Read port: 54827
+WebDriver BiDi listening on ws://127.0.0.1:54818
+1685546519349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilecwoK3h/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54818/devtools/browser/7851bf6b-dbda-460f-ad36-d953df41d604
+1685546520723	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685546520937	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685546521135	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685546521319	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685546531966	Marionette	INFO	Stopped listening on port 54827
+1685546710824	geckodriver	INFO	Listening on 127.0.0.1:55660
+1685546711342	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilecIuw09"
+1685546711754	Marionette	INFO	Marionette enabled
+1685546711780	Marionette	INFO	Listening on port 55670
+Read port: 55670
+WebDriver BiDi listening on ws://127.0.0.1:55661
+1685546711907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofilecIuw09/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55661/devtools/browser/06019c33-75d7-41e7-9903-56f703575343
+1685546713470	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685546713512	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685546713708	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685546713845	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685546724360	Marionette	INFO	Stopped listening on port 55670
+1685547034264	geckodriver	INFO	Listening on 127.0.0.1:57036
+1685547034783	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileg9deBl"
+1685547035179	Marionette	INFO	Marionette enabled
+1685547035341	Marionette	INFO	Listening on port 57046
+WebDriver BiDi listening on ws://127.0.0.1:57037
+Read port: 57046
+1685547035514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileg9deBl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57037/devtools/browser/c7c4eacc-abdf-48ed-98ae-11979477586c
+1685547036952	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685547036968	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685547037146	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685547037291	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://9075392.fls.doubleclick.net/ddm/fls/r/src=9075392;type=us_scr50;cat=us_scr50;ord=1612130048035;gtm=45fe35o0;auiddc=1654974282.1685547039;u6=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html;~oref=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html, line 18: SyntaxError: missing } after function body
+JavaScript note: https://9075392.fls.doubleclick.net/ddm/fls/r/src=9075392;type=us_scr50;cat=us_scr50;ord=1612130048035;gtm=45fe35o0;auiddc=1654974282.1685547039;u6=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html;~oref=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdocs%2Fintrinsics-guide%2Findex.html, line 1: { opened at line 1, column 20
+1685547048815	Marionette	INFO	Stopped listening on port 57046
+1685547154318	geckodriver	INFO	Listening on 127.0.0.1:57615
+1685547154833	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileq3aOjq"
+1685547155259	Marionette	INFO	Marionette enabled
+1685547155290	Marionette	INFO	Listening on port 57625
+Read port: 57625
+WebDriver BiDi listening on ws://127.0.0.1:57616
+1685547155418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileq3aOjq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57616/devtools/browser/19204821-c030-4cba-847e-be04133f092c
+1685547156870	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685547156914	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685547157018	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685547168077	Marionette	INFO	Stopped listening on port 57625
+1685547520222	geckodriver	INFO	Listening on 127.0.0.1:59173
+1685547520728	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileE6EDCE"
+1685547521145	Marionette	INFO	Marionette enabled
+1685547521309	Marionette	INFO	Listening on port 59183
+Read port: 59183
+WebDriver BiDi listening on ws://127.0.0.1:59174
+1685547521407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sw/cyrtgnwd5cg9spb6856nz4rh0000gn/T/rust_mozprofileE6EDCE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59174/devtools/browser/c080b422-6665-4954-932e-b7fb02a1f2df
+1685547522822	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685547522891	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685547523228	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685547533853	Marionette	INFO	Stopped listening on port 59183

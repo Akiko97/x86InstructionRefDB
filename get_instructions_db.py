@@ -164,5 +164,5 @@ if __name__ == '__main__':
     if len(sections) == len(allInstructions):
         for index, section in enumerate(sections):
             data.append({'section': section.text, 'instructions': allInstructions[index]})
-        with open('data.output.json', 'w') as file:
+        with open('instructions.db.output.json', 'w') as file:
             json.dump(data, file, indent=2)

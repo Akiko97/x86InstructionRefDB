@@ -66,19 +66,19 @@ if __name__ == '__main__':
                                 if iid['value'][0] == '\n' else iid['value']
             matchingIntrinsics = [i for i in intrinsics if is_matching(i, data)]
             if len(matchingIntrinsics) == 0:
-                data['set'] = 'N/A'
-                data['flags'] = 'N/A'
+                data['set'] = '-'
+                data['flags'] = '-'
             else:
                 dataSet = []
                 for m in matchingIntrinsics:
                     if m['set'] not in dataSet:
                         dataSet.append(m['set'])
-                data['set'] = ', '.join(dataSet)
+                data['set'] = ', '.join(dataSet) if len(dataSet) > 0 else '-'
                 dataFlags = []
                 for m in matchingIntrinsics:
                     if m['details']['synopsis']['value']['flags'] not in dataFlags:
                         dataFlags = list(set(dataFlags) | set(m['details']['synopsis']['value']['flags']))
-                data['flags'] = ', '.join(dataFlags)
+                data['flags'] = ', '.join(dataFlags) if len(dataFlags) > 0 else '-'
                 data['intrinsics'] = []
                 for intrinsic in matchingIntrinsics:
                     ois = intrinsic['details']['synopsis']['value']['other_infos'] \

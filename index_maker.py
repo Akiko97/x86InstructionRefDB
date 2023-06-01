@@ -92,12 +92,14 @@ if __name__ == '__main__':
                         if intrinsic['details']['synopsis']['hasValue'] else '',
                         'set': intrinsic['set'],
                         'flags': intrinsic['details']['synopsis']['value']['flags']
-                        if intrinsic['details']['synopsis']['hasValue'] else '',
+                        if intrinsic['details']['synopsis']['hasValue'] else [],
                         'other_infos': ois,
                         'description': intrinsic['details']['description']['value']
                         if intrinsic['details']['description']['hasValue'] else '',
                         'operation': intrinsic['details']['operation']['value']
-                        if intrinsic['details']['operation']['hasValue'] else ''
+                        if intrinsic['details']['operation']['hasValue'] else '',
+                        'performance': intrinsic['details']['performance']['value']
+                        if intrinsic['details']['performance']['hasValue'] else ''
                     })
             index.append(data)
     for nf in notFound:

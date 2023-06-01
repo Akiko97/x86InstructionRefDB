@@ -46,11 +46,28 @@ if __name__ == '__main__':
             data = {
                 'mnemonic': instruction['mnemonic'].lower(),
                 'summary': instruction['summary'],
-                'table': instruction['data']['table']
+                'table': instruction['data']['table'],
+                'instruction-info': {}
             }
+            for ti, t in enumerate(data['table']):
+                if t['type'] == 'quote':
+                    data['table'][ti]['value'] = data['table'][ti]['value'][1:] \
+                        if data['table'][ti]['value'][0] == '\n' else data['table'][ti]['value']
+            for k, v in instruction['data'].items():
+                if k == 'table' or k == 'title':
+                    continue
+                else:
+                    data['instruction-info'][k] = v
+                    data['instruction-info'][k]['title'] = data['instruction-info'][k]['title'] \
+                        .replace('\n\t\t\t\u00b6\n\t\t', '')
+                    for iidi, iid in enumerate(data['instruction-info'][k]['data']):
+                        if iid['type'] == 'quote':
+                            data['instruction-info'][k]['data'][iidi]['value'] = iid['value'][1:] \
+                                if iid['value'][0] == '\n' else iid['value']
             matchingIntrinsics = [i for i in intrinsics if is_matching(i, data)]
             if len(matchingIntrinsics) == 0:
                 data['set'] = 'N/A'
+                data['flags'] = 'N/A'
             else:
                 dataSet = []
                 for m in matchingIntrinsics:
@@ -64,6 +81,10 @@ if __name__ == '__main__':
                 data['flags'] = ', '.join(dataFlags)
                 data['intrinsics'] = []
                 for intrinsic in matchingIntrinsics:
+                    ois = intrinsic['details']['synopsis']['value']['other_infos'] \
+                        if intrinsic['details']['synopsis']['hasValue'] else []
+                    for oii, oi in enumerate(ois):
+                        ois[oii] = oi.replace('\u00a0', ' ')
                     data['intrinsics'].append({
                         'id': intrinsic['id'],
                         'name': intrinsic['signature']['name'],
@@ -72,8 +93,7 @@ if __name__ == '__main__':
                         'set': intrinsic['set'],
                         'flags': intrinsic['details']['synopsis']['value']['flags']
                         if intrinsic['details']['synopsis']['hasValue'] else '',
-                        'other_infos': intrinsic['details']['synopsis']['value']['other_infos']
-                        if intrinsic['details']['synopsis']['hasValue'] else '',
+                        'other_infos': ois,
                         'description': intrinsic['details']['description']['value']
                         if intrinsic['details']['description']['hasValue'] else '',
                         'operation': intrinsic['details']['operation']['value']

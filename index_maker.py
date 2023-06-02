@@ -88,6 +88,7 @@ if __name__ == '__main__':
                     data['intrinsics'].append({
                         'id': intrinsic['id'],
                         'name': intrinsic['signature']['name'],
+                        'instruction': intrinsic['instruction'] if 'instruction' in intrinsic else '',
                         'signature': intrinsic['details']['synopsis']['value']['signature']
                         if intrinsic['details']['synopsis']['hasValue'] else '',
                         'set': intrinsic['set'],

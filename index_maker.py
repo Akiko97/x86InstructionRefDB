@@ -1,5 +1,6 @@
 # -*- coding:UTF-8 -*-
 import json
+import re
 
 
 def i_filter(s):
@@ -18,13 +19,19 @@ def is_matching(i, d):
     if 'instruction' in i:
         inst = i_filter(i['instruction'])
         if inst == '':
-            return False
+            if i['instruction'] == '...':
+                mois = i['details']['synopsis']['value']['other_infos'] \
+                    if i['details']['synopsis']['hasValue'] else []
+                for moi in mois:
+                    oi_match = re.search('Instruction: (\\S*)', moi)
+                    if oi_match:
+                        inst = oi_match.group(1)
         if inst == d['mnemonic']:
             return True
         table = d['table']
-        for t in table:
-            if t['type'] == 'table':
-                items = t['value']['items']
+        for tt in table:
+            if tt['type'] == 'table':
+                items = tt['value']['items']
                 for item in items:
                     if 'instruction' in item and match_string(inst, item['instruction']):
                         return True
@@ -131,5 +138,72 @@ if __name__ == '__main__':
                 if intrinsic['details']['operation']['hasValue'] else ''
             })
         index.append(data)
+    for intrinsic in intrinsics:
+        if 'instruction' not in intrinsic:
+            ois = intrinsic['details']['synopsis']['value']['other_infos'] \
+                if intrinsic['details']['synopsis']['hasValue'] else []
+            for oii, oi in enumerate(ois):
+                ois[oii] = oi.replace('\u00a0', ' ')
+            data = {
+                'mnemonic': '-',
+                'summary': intrinsic['signature']['name'],
+                'set': intrinsic['set'],
+                'flags': ', '.join(intrinsic['details']['synopsis']['value']['flags'])
+                if intrinsic['details']['synopsis']['hasValue'] and
+                len(intrinsic['details']['synopsis']['value']['flags']) > 0 else '-',
+                'intrinsics': [{
+                    'id': intrinsic['id'],
+                    'name': intrinsic['signature']['name'],
+                    'instruction': intrinsic['instruction'] if 'instruction' in intrinsic else '',
+                    'signature': intrinsic['details']['synopsis']['value']['signature']
+                    if intrinsic['details']['synopsis']['hasValue'] else '',
+                    'set': intrinsic['set'],
+                    'flags': intrinsic['details']['synopsis']['value']['flags']
+                    if intrinsic['details']['synopsis']['hasValue'] else [],
+                    'other_infos': ois,
+                    'description': intrinsic['details']['description']['value']
+                    if intrinsic['details']['description']['hasValue'] else '',
+                    'operation': intrinsic['details']['operation']['value']
+                    if intrinsic['details']['operation']['hasValue'] else '',
+                    'performance': intrinsic['details']['performance']['value']
+                    if intrinsic['details']['performance']['hasValue'] else ''
+                }]
+            }
+            index.append(data)
+        if 'instruction' in intrinsic and intrinsic['instruction'] == '...':
+            ct = False
+            ois = intrinsic['details']['synopsis']['value']['other_infos'] \
+                if intrinsic['details']['synopsis']['hasValue'] else []
+            for oii, oi in enumerate(ois):
+                ois[oii] = oi.replace('\u00a0', ' ')
+                if ois[oii] == 'Instruction: Sequence':
+                    ct = True
+            if ct:
+                data = {
+                    'mnemonic': '-',
+                    'summary': intrinsic['signature']['name'] + ' generates a sequence of instructions',
+                    'set': intrinsic['set'],
+                    'flags': ', '.join(intrinsic['details']['synopsis']['value']['flags'])
+                    if intrinsic['details']['synopsis']['hasValue'] and
+                    len(intrinsic['details']['synopsis']['value']['flags']) > 0 else '-',
+                    'intrinsics': [{
+                        'id': intrinsic['id'],
+                        'name': intrinsic['signature']['name'],
+                        'instruction': intrinsic['instruction'] if 'instruction' in intrinsic else '',
+                        'signature': intrinsic['details']['synopsis']['value']['signature']
+                        if intrinsic['details']['synopsis']['hasValue'] else '',
+                        'set': intrinsic['set'],
+                        'flags': intrinsic['details']['synopsis']['value']['flags']
+                        if intrinsic['details']['synopsis']['hasValue'] else [],
+                        'other_infos': ois,
+                        'description': intrinsic['details']['description']['value']
+                        if intrinsic['details']['description']['hasValue'] else '',
+                        'operation': intrinsic['details']['operation']['value']
+                        if intrinsic['details']['operation']['hasValue'] else '',
+                        'performance': intrinsic['details']['performance']['value']
+                        if intrinsic['details']['performance']['hasValue'] else ''
+                    }]
+                }
+                index.append(data)
     with open('index.db.output.json', 'w') as f:
         json.dump(index, f, indent=2)
